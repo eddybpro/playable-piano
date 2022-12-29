@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="container">
+        <div class="header">
+            <h2 class="title">playable <span>piano</span> </h2>
+
+            <div class="volume-container">
+                <span>volume</span>
+                <input type="range" name="volume" id="volume" max="1" min="0" step="0.25">
+                
+            </div>
+
+            <div class="show-hide-key">
+                <span>show keys</span>
+                <input type="checkbox" checked name="showHide" id="showHide">
+                
+            </div>
+        </div>
+
+        <div class="keys-container">
+            <li class="key white" data-key = 'a'><span>a</span></li>
+            <li class="key black" data-key = 'w'><span>w</span></li>
+            <li class="key white" data-key = 's'><span>s</span></li>
+            <li class="key black" data-key = 'e'><span>e</span></li>
+            <li class="key white" data-key = 'd'><span>d</span></li>
+            <li class="key white" data-key = 'f'><span>f</span></li>
+            <li class="key black" data-key = 't'><span>t</span></li>
+            <li class="key white" data-key = 'g'><span>g</span></li>
+            <li class="key black" data-key = 'y'><span>y</span></li>
+            <li class="key white" data-key = 'h'><span>h</span></li>
+            <li class="key black" data-key = 'u'><span>u</span></li>
+            <li class="key white" data-key = 'j'><span>j</span></li>
+            <li class="key white" data-key = 'k'><span>k</span></li>
+            <li class="key black" data-key = 'o'><span>o</span></li>
+            <li class="key white" data-key = 'l'><span>l</span></li>
+            <li class="key black" data-key = 'p'><span>p</span></li>
+            <li class="key white" data-key = ';'><span>;</span></li>
+        </div>
+    </section>
+
+
+    <!-- js link -->
+    <script src="app.js"></script>
+</body>
+</html>
